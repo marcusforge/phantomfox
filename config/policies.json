@@ -1,0 +1,24 @@
+{
+  "policies": {
+    "DisableTelemetry": true,
+    "DisableFirefoxStudies": true,
+    "DisablePocket": true,
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxScreenshots": true,
+    "DefaultSearchEngine": "DuckDuckGo",
+    "DisplayMenuBar": "never",
+    "ExtensionSettings": {
+      "uBlock0@raymondhill.net": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/ublock-origin/latest.xpi"
+      }
+    },
+    "Preferences": {
+      "privacy.resistFingerprinting": true,
+      "privacy.trackingprotection.enabled": true,
+      "privacy.trackingprotection.socialtracking.enabled": true,
+      "browser.send_pings": false,
+      "dom.event.clipboardevents.enabled": false
+    }
+  }
+}
