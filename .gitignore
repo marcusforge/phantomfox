@@ -1,0 +1,7 @@
+# PhantomFox: Ignore build artifacts and downloaded archives
+build/
+*.tar.bz2
+*.tar.gz
+*.zip
+*.exe
+*.deb
